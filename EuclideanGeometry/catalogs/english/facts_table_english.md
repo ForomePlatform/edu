@@ -15,6 +15,7 @@
  | 5 | K5 | Facts related to congruence of triangles | Criteria for triangle congruence. | [1002](https://zadachi.mccme.ru/2012/jndex.html#&task1002); [ 1093]( https://zadachi.mccme.ru/2012/jndex.html#&task1093) | 
  | 5.a | K1005 | Facts related to congruence of triangles | Criteria for right triangle congruence. | [1095](https://zadachi.mccme.ru/2012/jndex.html#&task1095) | 
  | 5.b | K2005 | Facts related to congruence of triangles | Fourth criterion of triangle congruence. | [10280](https://zadachi.mccme.ru/2012/jndex.html#&task10280) | 
+ | 7 | K7 | Facts related to parallelograms | Признаки и свойства параллелограмма | [1096](https://zadachi.mccme.ru/2012/jndex.html#&task1096); [ 1097](https://zadachi.mccme.ru/2012/jndex.html#&task1097) | 
  | 7.a | K1007 | Facts related to parallelograms | Criteria and properties of a rectangle. | []() | 
  | 7.b | K2007 | Facts related to parallelograms | Criteria and properties of a rhombus. | [1891](https://zadachi.mccme.ru/2012/jndex.html#&task1891); [ 2007]( https://zadachi.mccme.ru/2012/jndex.html#&task2007); [ 1099]( https://zadachi.mccme.ru/2012/jndex.html#&task1099) | 
  | 7.c | K3007 | Facts related to parallelograms | Criterion and property of a square. | []() | 
@@ -184,10 +185,10 @@
  | 136 | K136 | Facts related to plane transformations | The image of a line under homothety. Properties of homothety. | [5707](https://zadachi.mccme.ru/2012/jndex.html#&task5707) | 
  | 137 | K137 | Facts related to plane transformations | Если стороны треугольника A1B1C1 соответственно параллельны сторонам треугольника ABC, то треугольник A1B1C1 можно получить из треугольника ABC с помошью гомотетии и параллельного переноса | [5000](https://zadachi.mccme.ru/2012/jndex.html#&task5000) | 
  | 138 | K138 | Facts related to plane transformations | Criterion for a regular n-gon (rotation by an angle). | [6001](https://zadachi.mccme.ru/2012/jndex.html#&task6001) | 
- | 139 | K139 | Facts related to circles | The relative positions of two circles. | [1760](https://zadachi.mccme.ru/2012/jndex.html#&task1760) | 
+ | 139 | K139 | Facts related to circles | Relative position of two circles | [1760](https://zadachi.mccme.ru/2012/jndex.html#&task1760) | 
  | 140 | K140 | Facts related to plane transformations | The identity transformation as rotation by 360°/n. | []() | 
  | 141 | K141 | Facts related to plane transformations | Nine-point circle. | [174](https://zadachi.mccme.ru/2012/jndex.html#&task174) | 
- | 142 | K142 | Facts related to plane transformations | Euler line. | [5044](https://zadachi.mccme.ru/2012/jndex.html#&task5044) | 
+ | 142 | K142 | Facts related to plane transformations | Euler line | [5044](https://zadachi.mccme.ru/2012/jndex.html#&task5044) | 
  | 143 | K143 | Facts related to compositions of transformations | Composition of rotation and axial symmetry (center lies on the axis). | []() | 
  | 144 | K144 | Facts related to compositions of transformations | Composition of several rotations about one center. | []() | 
  | 144.a | K1144 | Facts related to compositions of transformations | Composition of several rotations about different centers. | [6710](https://zadachi.mccme.ru/2012/jndex.html#&task6710) | 
@@ -216,7 +217,7 @@
  | 166 | K166 | Facts related to right triangles | Carnot’s theorem. | [2276](https://zadachi.mccme.ru/2012/jndex.html#&task2276) | 
  | 167 | K167 | Facts related to plane transformations | Properties of inversion. | [6110](https://zadachi.mccme.ru/2012/jndex.html#&task6110); [ 6111](https://zadachi.mccme.ru/2012/jndex.html#&task6111); [ 6112](https://zadachi.mccme.ru/2012/jndex.html#&task6112); [ 6114](https://zadachi.mccme.ru/2012/jndex.html#&task6114); [ 6115](https://zadachi.mccme.ru/2012/jndex.html#&task6115) | 
  | 168 | K168 | Facts related to circles | Feuerbach’s theorem. | [6117](https://zadachi.mccme.ru/2012/jndex.html#&task6117) | 
- | 169 | K169 | Facts related to quadrilaterals | Gauss line. | [6149](https://zadachi.mccme.ru/2012/jndex.html#&task6149) | 
+ | 169 | K169 | Facts related to quadrilaterals | Gauss line | [6149](https://zadachi.mccme.ru/2012/jndex.html#&task6149) | 
  | 170 | K170 | Facts related to inscribed angles | Archimedes' formula (about the projection of an angle bisector). | [176](https://zadachi.mccme.ru/2012/jndex.html#&task176) | 
  | 171 | K171 | Facts related to angle bisectors | Mansion’s theorem. | [57](https://zadachi.mccme.ru/2012/jndex.html#&task57) | 
  | 172 | K172 | Facts related to cyclic quadrilaterals | Monge’s theorem. | [5706](https://zadachi.mccme.ru/2012/jndex.html#&task5706) | 
