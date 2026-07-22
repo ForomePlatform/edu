@@ -15,7 +15,7 @@
  | 5 | K5 | Facts related to congruence of triangles | Criteria for triangle congruence. | [1002](https://zadachi.mccme.ru/2012/jndex.html#&task1002); [ 1093]( https://zadachi.mccme.ru/2012/jndex.html#&task1093) | 
  | 5.a | K1005 | Facts related to congruence of triangles | Criteria for right triangle congruence. | [1095](https://zadachi.mccme.ru/2012/jndex.html#&task1095) | 
  | 5.b | K2005 | Facts related to congruence of triangles | Fourth criterion of triangle congruence. | [10280](https://zadachi.mccme.ru/2012/jndex.html#&task10280) | 
- | 7 | K7 | Facts related to parallelograms | Признаки и свойства параллелограмма | [1096](https://zadachi.mccme.ru/2012/jndex.html#&task1096); [ 1097](https://zadachi.mccme.ru/2012/jndex.html#&task1097) | 
+ | 7 | K7 | Facts related to parallelograms | Criteria and properties of a parallelogram. | [1096](https://zadachi.mccme.ru/2012/jndex.html#&task1096); [ 1097](https://zadachi.mccme.ru/2012/jndex.html#&task1097) | 
  | 7.a | K1007 | Facts related to parallelograms | Criteria and properties of a rectangle. | []() | 
  | 7.b | K2007 | Facts related to parallelograms | Criteria and properties of a rhombus. | [1891](https://zadachi.mccme.ru/2012/jndex.html#&task1891); [ 2007]( https://zadachi.mccme.ru/2012/jndex.html#&task2007); [ 1099]( https://zadachi.mccme.ru/2012/jndex.html#&task1099) | 
  | 7.c | K3007 | Facts related to parallelograms | Criterion and property of a square. | []() | 
