@@ -1,7 +1,6 @@
 # This CITATION.cff file describes the dataset in this repository (the
 # Euclidean geometry ontology catalogs). To cite the accompanying article,
 # use `preferred-citation` below.
-# NOTE: add the Zenodo DOI under `identifiers` after the first archived release.
 cff-version: 1.2.0
 message: >-
   If you use these catalogs, please cite both the dataset and the
@@ -37,6 +36,13 @@ authors:
     orcid: "https://orcid.org/0009-0006-0169-2944"
     affiliation: "Brookline High School"
 repository-code: "https://github.com/ForomePlatform/edu"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21541020
+    description: "Zenodo concept DOI (resolves to the latest version)"
+  - type: doi
+    value: 10.5281/zenodo.21541021
+    description: "Zenodo archive of version 1.0.0"
 license: CC-BY-4.0
 version: 1.0.0
 date-released: "2026-07-24"

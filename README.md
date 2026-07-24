@@ -21,9 +21,14 @@ skill tracking. It is documented in the article:
 ## Citing this repository
 
 If you use the catalogs, please cite the article above and the archived dataset
-(see [`CITATION.cff`](CITATION.cff)). A citable, versioned archive of this
-repository is maintained on Zenodo; the DOI badge will appear here once the
-first release is archived.
+(see [`CITATION.cff`](CITATION.cff)). Versioned archives are maintained on
+Zenodo:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21541020.svg)](https://doi.org/10.5281/zenodo.21541020)
+
+[10.5281/zenodo.21541020](https://doi.org/10.5281/zenodo.21541020) resolves
+to the latest version; the v1.0.0 archive is
+[10.5281/zenodo.21541021](https://doi.org/10.5281/zenodo.21541021).
 
 ## Licensing
 
