@@ -10,9 +10,9 @@ type: dataset
 title: "Euclidean Geometry Ontology Catalogs (Facts, Objects, and Methods)"
 abstract: >-
   Annotation vocabularies of an ontology for Euclidean geometry problems and
-  their solutions: 219 geometric facts, 143 geometric objects, and 97 solution
+  their solutions: 230 geometric facts, 143 geometric objects, and 97 solution
   methods, in English and Russian, with English-Russian translation tables and
-  a worked solution-graph example. Developed in 1991-1996 by R.K. Gordin,
+  worked solution-graph examples. Developed in 1991-1996 by R.K. Gordin,
   M. Bouzinier, S. Trifonov, and I.F. Sharygin, and used since to annotate
   thousands of geometry problems in support of curriculum design and skill
   tracking.

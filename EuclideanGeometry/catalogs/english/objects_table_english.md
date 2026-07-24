@@ -2,7 +2,7 @@
 
  | Object | Code | 
  | ------ | ------ | 
- | Parallel lines | O0 | 
+ | Parallel lines | O1000 | 
  | Triangles | O1 | 
  | Congruence of triangles | O1001 | 
  | Right triangle | O2 | 
@@ -98,7 +98,6 @@
  | Center of symmetry | O71 | 
  | Broken lines (polylines) | O72 | 
  | Projection of a point (segment) onto a line | O73 | 
- | Projection of a point onto a line | O73 | 
  | Point symmetric to a given one with respect to a line | O74 | 
  | Point symmetric to a given one with respect to another point | O1074 | 
  | Feet of the altitudes (of triangles) | O75 | 

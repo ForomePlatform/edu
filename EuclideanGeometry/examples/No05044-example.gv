@@ -1,0 +1,31 @@
+digraph No05044 {
+rankdir=TB;
+Start [label="Problem 5044\n(zadachi.mccme.ru/2012/\n#&task5044)", shape=box, style=filled, fillcolor="#fde0ef", penwidth=1, color="#555555"];
+P1 [shape=diamond, label="Relations between elements\nof a triangle", style=filled, fillcolor="#43BF71", penwidth=3, fontname="Helvetica-bold", color="#f94144"];
+P2 [shape=diamond, label="Centroid (intersection of\nmedians)", style=filled, fillcolor="#43BF71", penwidth=1, color="#555555"];
+P3 [shape=diamond, label="Orthocenter (intersection\nof altitudes)", style=filled, fillcolor="#43BF71", penwidth=1, color="#555555"];
+P4 [shape=diamond, label="Circumcenter (intersection\nof perpendicular\nbisectors)", style=filled, fillcolor="#43BF71", penwidth=1, color="#555555"];
+P5 [shape=ellipse, label="Criteria and properties of\na rhombus.", style=filled, fillcolor="#F9D057", penwidth=1, color="#555555"];
+P6 [shape=ellipse, label="Criteria for parallel\nlines.", style=filled, fillcolor="#F9D057", penwidth=1, color="#555555"];
+P7 [shape=rectangle, label="Auxiliary similar\ntriangles", style=filled, fillcolor="#90D743", penwidth=1, color="#555555"];
+P8 [shape=diamond, label="Similar triangles", style=filled, fillcolor="#43BF71", penwidth=1, color="#555555"];
+P9 [shape=ellipse, label="Criteria for similarity of\ntriangles.", style=filled, fillcolor="#F9D057", penwidth=1, color="#555555"];
+P10 [shape=ellipse, label="The medians of a triangle\nmeet at one point and are\ndivided by it in the ratio\n2 : 1, measured from …", style=filled, fillcolor="#F9D057", penwidth=1, color="#555555"];
+P11 [shape=rectangle, label="Use of uniqueness in\nproofs", style=filled, fillcolor="#90D743", penwidth=1, color="#555555"];
+P12 [shape=ellipse, label="The medians of a triangle\nmeet at one point and are\ndivided by it in the ratio\n2 : 1, measured from …", style=filled, fillcolor="#F9D057", penwidth=1, color="#555555"];
+P13 [shape=diamond, label="Homothety", style=filled, fillcolor="#43BF71", penwidth=1, color="#555555"];
+P14 [shape=rectangle, label="Application of homothety", style=filled, fillcolor="#90D743", penwidth=3, fontname="Helvetica-bold", color="#f94144"];
+P15 [shape=ellipse, label="The image of a line under\nhomothety. Properties of\nhomothety.", style=filled, fillcolor="#F9D057", penwidth=1, color="#555555"];
+P16 [shape=diamond, label="Euler line", style=filled, fillcolor="#43BF71", penwidth=3, fontname="Helvetica-bold", color="#f94144"];
+P17 [shape=ellipse, label="Euler line", style=filled, fillcolor="#F9D057", penwidth=1, color="#555555"];
+Done [label=Solution, shape=box, style=filled, fillcolor="#cfe2f3", penwidth=1, color="#555555"];
+Start -> P1 -> P2 -> P3 -> P4 -> P5 -> P6 -> P7 -> P8 -> P9 -> P10 -> P11 -> Done;
+P4 -> P12;
+P12 -> P13;
+P13 -> P14;
+P14 -> P15;
+P15 -> Done;
+Start -> P16;
+P16 -> P17;
+P17 -> Done;
+}

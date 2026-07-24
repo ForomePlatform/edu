@@ -1,0 +1,15 @@
+digraph No01204 {
+rankdir=TB;
+Start [label="Problem 1204\n(zadachi.mccme.ru/2012/\n#&task1204)", shape=box, style=filled, fillcolor="#fde0ef", penwidth=1, color="#555555"];
+P1 [shape=diamond, label="Quadrilateral", style=filled, fillcolor="#43BF71", penwidth=1, color="#555555"];
+P2 [shape=rectangle, label="\"Join two given points by\na segment\", \"Extend a\nsegment\", etc.", style=filled, fillcolor="#90D743", penwidth=1, color="#555555"];
+P3 [shape=diamond, label="Midline of a triangle", style=filled, fillcolor="#43BF71", penwidth=3, fontname="Helvetica-bold", color="#f94144"];
+P4 [shape=ellipse, label="Midline theorem for\ntriangles.", style=filled, fillcolor="#F9D057", penwidth=1, color="#555555"];
+P5 [shape=ellipse, label="Criteria and properties of\na parallelogram.", style=filled, fillcolor="#F9D057", penwidth=1, color="#555555"];
+P6 [shape=diamond, label="Parallelogram", style=filled, fillcolor="#43BF71", penwidth=3, fontname="Helvetica-bold", color="#f94144"];
+P7 [shape=ellipse, label="Varignon's theorem.", style=filled, fillcolor="#F9D057", penwidth=3, fontname="Helvetica-bold", color="#f94144"];
+Done [label=Solution, shape=box, style=filled, fillcolor="#cfe2f3", penwidth=1, color="#555555"];
+Start -> P1 -> P2 -> P3 -> P4 -> P5 -> P6 -> Done;
+Start -> P7;
+P7 -> Done;
+}

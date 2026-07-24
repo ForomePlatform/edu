@@ -1,0 +1,31 @@
+digraph No02729 {
+rankdir=TB;
+Start [label="Problem 2729\n(zadachi.mccme.ru/2012/\n#&task2729)", shape=box, style=filled, fillcolor="#fde0ef", penwidth=1, color="#555555"];
+P1 [shape=diamond, label="Relations between elements\nof a triangle", style=filled, fillcolor="#43BF71", penwidth=3, fontname="Helvetica-bold", color="#f94144"];
+P2 [shape=diamond, label="Right triangle", style=filled, fillcolor="#43BF71", penwidth=1, color="#555555"];
+P3 [shape=rectangle, label="\"Drop a perpendicular from\na given point to a given\nline\"", style=filled, fillcolor="#90D743", penwidth=1, color="#555555"];
+P4 [shape=diamond, label="Altitude of a triangle", style=filled, fillcolor="#43BF71", penwidth=1, color="#555555"];
+P5 [shape=ellipse, label="Means proportional in a\nright triangle.", style=filled, fillcolor="#F9D057", penwidth=3, fontname="Helvetica-bold", color="#f94144"];
+P6 [shape=rectangle, label="Termwise addition or\nmultiplication of\nequations and inequalities", style=filled, fillcolor="#90D743", penwidth=1, color="#555555"];
+P7 [shape=diamond, label="Square", style=filled, fillcolor="#43BF71", penwidth=1, color="#555555"];
+P8 [shape=rectangle, label="Representing the area of a\nfigure as the sum of the\nareas of its parts", style=filled, fillcolor="#90D743", penwidth=1, color="#555555"];
+P9 [shape=diamond, label="Area of a triangle", style=filled, fillcolor="#43BF71", penwidth=1, color="#555555"];
+P10 [shape=diamond, label="Incircle of a triangle", style=filled, fillcolor="#43BF71", penwidth=1, color="#555555"];
+P11 [shape=ellipse, label="Area formula for a\ncircumscribed polygon: S =\npr", style=filled, fillcolor="#F9D057", penwidth=3, fontname="Helvetica-bold", color="#f94144"];
+P12 [shape=ellipse, label="Formula for the inradius\nof a right triangle.", style=filled, fillcolor="#F9D057", penwidth=1, color="#555555"];
+P13 [shape=ellipse, label="Area formula for\nparallelogram.", style=filled, fillcolor="#F9D057", penwidth=1, color="#555555"];
+P14 [shape=ellipse, label="Pythagoras' theorem.", style=filled, fillcolor="#F9D057", penwidth=1, color="#555555"];
+Done [label=Solution, shape=box, style=filled, fillcolor="#cfe2f3", penwidth=1, color="#555555"];
+Start -> P1 -> P2 -> P3 -> P4 -> P5 -> P6 -> Done;
+P1 -> P7;
+P7 -> P8;
+P8 -> Done;
+P1 -> P9;
+P9 -> P10;
+P10 -> P11;
+P11 -> P12;
+P12 -> P13;
+P13 -> Done;
+Start -> P14;
+P14 -> Done;
+}

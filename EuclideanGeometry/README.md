@@ -40,10 +40,10 @@ of each solution path (see `examples/`).
 
 | File | Language | Entries |
 |---|---|---|
-| `catalogs/english/facts_table_english.md` | English | 219 facts |
+| `catalogs/english/facts_table_english.md` | English | 230 facts |
 | `catalogs/english/objects_table_english.md` | English | 143 objects |
 | `catalogs/english/methods_table_english.md` | English | 97 methods |
-| `catalogs/russian/facts_table_russian.md` | Russian | 219 facts |
+| `catalogs/russian/facts_table_russian.md` | Russian | 230 facts |
 | `catalogs/russian/objects_table_russian.md` | Russian | 143 objects |
 | `catalogs/russian/methods_table_russian.md` | Russian | 97 methods |
 | `catalogs/translations/translations.md` | EN ↔ RU | translation tables for topics and statements |
@@ -73,12 +73,13 @@ Column conventions:
 
 ## Examples and documentation
 
-[`examples/`](examples/) contains three worked solution graphs with rendered
-images: [problem 1](https://zadachi.mccme.ru/2012/#&task1) (a single-chain
-graph — the inscribed-angle theorem), [problem 5](https://zadachi.mccme.ru/2012/#&task5)
-(alternative solution paths), and [problem 2034](https://zadachi.mccme.ru/2012/#&task2034)
-(Figure 1 of the article). Problem statements are referenced by their
-canonical URLs, not reproduced.
+[`examples/`](examples/) contains seven worked solution graphs with rendered
+images, including four classical theorems whose statements are long in the
+public domain — Varignon, Menelaus, Pythagoras (three proofs in one graph),
+and the Euler line — alongside the inscribed-angle theorem, a
+branching computational example, and Figure 1 of the article. Database
+problem texts are referenced by canonical URL, not reproduced; the classical
+results are stated in the examples' own words.
 
 [`docs/annotation-methodology.md`](docs/annotation-methodology.md) is the
 annotation manual: the code scheme, solution-graph construction rules,

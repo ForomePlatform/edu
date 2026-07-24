@@ -1,0 +1,20 @@
+digraph No01622 {
+rankdir=TB;
+Start [label="Problem 1622\n(zadachi.mccme.ru/2012/\n#&task1622)", shape=box, style=filled, fillcolor="#fde0ef", penwidth=1, color="#555555"];
+P1 [shape=diamond, label="3 points being collinear", style=filled, fillcolor="#43BF71", penwidth=1, color="#555555"];
+P2 [shape=rectangle, label="\"Through a given point,\ndraw a line parallel to a\ngiven one\"", style=filled, fillcolor="#90D743", penwidth=1, color="#555555"];
+P3 [shape=rectangle, label="Considering several pairs\nof similar triangles", style=filled, fillcolor="#90D743", penwidth=1, color="#555555"];
+P4 [shape=ellipse, label="Properties of parallel\nlines.", style=filled, fillcolor="#F9D057", penwidth=1, color="#555555"];
+P5 [shape=ellipse, label="Criteria for similarity of\ntriangles.", style=filled, fillcolor="#F9D057", penwidth=1, color="#555555"];
+P6 [shape=diamond, label="Similar triangles", style=filled, fillcolor="#43BF71", penwidth=3, fontname="Helvetica-bold", color="#f94144"];
+P7 [shape=ellipse, label="Menelaus' theorem.", style=filled, fillcolor="#F9D057", penwidth=3, fontname="Helvetica-bold", color="#f94144"];
+P8 [shape=ellipse, label="Thales' theorem and the\ntheorem on proportional\nsegments.", style=filled, fillcolor="#F9D057", penwidth=1, color="#555555"];
+P9 [shape=rectangle, label="Termwise addition or\nmultiplication of\nequations and inequalities", style=filled, fillcolor="#90D743", penwidth=1, color="#555555"];
+Done [label=Solution, shape=box, style=filled, fillcolor="#cfe2f3", penwidth=1, color="#555555"];
+Start -> P1 -> P2 -> P3 -> P4 -> P5 -> P6 -> Done;
+Start -> P7;
+P7 -> Done;
+P1 -> P8;
+P8 -> P9;
+P9 -> Done;
+}

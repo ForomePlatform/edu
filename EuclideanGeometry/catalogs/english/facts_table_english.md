@@ -15,6 +15,7 @@
  | 5 | K5 | Facts related to congruence of triangles | Criteria for triangle congruence. | [1002](https://zadachi.mccme.ru/2012/jndex.html#&task1002); [ 1093]( https://zadachi.mccme.ru/2012/jndex.html#&task1093) | 
  | 5.a | K1005 | Facts related to congruence of triangles | Criteria for right triangle congruence. | [1095](https://zadachi.mccme.ru/2012/jndex.html#&task1095) | 
  | 5.b | K2005 | Facts related to congruence of triangles | Fourth criterion of triangle congruence. | [10280](https://zadachi.mccme.ru/2012/jndex.html#&task10280) | 
+ | 6 | K6 | Facts related to angles | Angles with respectively perpendicular sides are equal if both are acute or both are non-acute. | []() | 
  | 7 | K7 | Facts related to parallelograms | Criteria and properties of a parallelogram. | [1096](https://zadachi.mccme.ru/2012/jndex.html#&task1096); [ 1097](https://zadachi.mccme.ru/2012/jndex.html#&task1097) | 
  | 7.a | K1007 | Facts related to parallelograms | Criteria and properties of a rectangle. | []() | 
  | 7.b | K2007 | Facts related to parallelograms | Criteria and properties of a rhombus. | [1891](https://zadachi.mccme.ru/2012/jndex.html#&task1891); [ 2007]( https://zadachi.mccme.ru/2012/jndex.html#&task2007); [ 1099]( https://zadachi.mccme.ru/2012/jndex.html#&task1099) | 
@@ -38,6 +39,9 @@
  | 18.a | K1018 | Facts related to angle bisectors | The bisectors of two exterior angles and of the third, interior, angle of a triangle meet at one point: the center of an excircle. | [1102](https://zadachi.mccme.ru/2012/jndex.html#&task1102) | 
  | 19 | K19 | Facts related to angle bisectors | Properties of a triangle's angle bisector. | [1509](https://zadachi.mccme.ru/2012/jndex.html#&task1509) | 
  | 19.a | K1019 | Metric relations in a triangle | Formula for angle bisector length in a triangle: l = ab/(b+c). | []() | 
+ | 19.b | K2019 | Metric relations in a triangle | Formula for a triangle's bisector: l<sub>c</sub> = 2ab·cos(γ/2)/(a+b). | [4021](https://zadachi.mccme.ru/2012/jndex.html#&task4021) | 
+ | 19.c | K3019 | Metric relations in a triangle | Formula for a triangle's bisector: l<sub>c</sub> = 2√(p(p−c)ab)/(a+b). | []() | 
+ | 20 | K20 | Facts related to angle bisectors | The bisector is the locus of interior points of an angle equidistant from its sides. | [1138](https://zadachi.mccme.ru/2012/jndex.html#&task1138) | 
  | 21 | K21 | Facts related to trigonometry | Trigonometric formulas and properties of trig functions. | []() | 
  | 22 | K22 | Metric relations in a triangle | Law of sines. | []() | 
  | 23 | K23 | Metric relations in a triangle | Extended law of sines. | [4759](https://zadachi.mccme.ru/2012/jndex.html#&task4759) | 
@@ -45,13 +49,16 @@
  | 24.a | K1024 | Facts related to inequalities | If triangles ABC and KLM satisfy AB = KL and AC = KM, and ∠A > ∠K, then BC > LM; and conversely | [3606](https://zadachi.mccme.ru/2012/jndex.html#&task3606) | 
  | 25 | K25 | Facts related to areas | Area formula for triangle: S = (1/2)ab sin C. | [4254](https://zadachi.mccme.ru/2012/jndex.html#&task4254) | 
  | 25.a | K1025 | Facts related to areas | Area formula for parallelogram. | []() | 
- | 26 | K26 | Facts related to areas | Area formula for cyclic polygon: S = pr | [523](https://zadachi.mccme.ru/2012/jndex.html#&task523) | 
+ | 26 | K26 | Facts related to areas | Area formula for a circumscribed polygon: S = pr | [523](https://zadachi.mccme.ru/2012/jndex.html#&task523) | 
+ | 26.a | K1026 | Facts related to areas | Area of a circumscribed polygon: S = p·r. | [523](https://zadachi.mccme.ru/2012/jndex.html#&task523) | 
+ | 26.b | K2026 | Facts related to areas | Triangle area via an exradius: S = (p − a)·r<sub>a</sub>. | [302](https://zadachi.mccme.ru/2012/jndex.html#&task302) | 
  | 27 | K27 | Facts related to areas | Area formula for triangle: S = abc / 4R | [4259](https://zadachi.mccme.ru/2012/jndex.html#&task4259) | 
  | 28 | K28 | Facts related to areas | Heron's formula. | [2730](https://zadachi.mccme.ru/2012/jndex.html#&task2730) | 
  | 29 | K29 | Facts related to areas | The product of base and height for a given triangle is constant. | []() | 
  | 30 | K30 | Facts related to similarity and ratios of segments | If AD and BE are altitudes of triangle ABC, then triangle DEC is similar to triangle ABC with ratio abs(cos ∠C). | [19](https://zadachi.mccme.ru/2012/jndex.html#&task19) | 
  | 31 | K31 | Facts related to trigonometry | Sines of adjacent angles are equal. | []() | 
  | 32 | K32 | Facts related to areas | The areas of triangles with equal heights are proportional to their bases. | []() | 
+ | 32.a | K1032 | Facts related to areas | Areas of triangles with equal bases are in the ratio of their heights. | []() | 
  | 33 | K33 | Facts related to areas | Area of a quadrilateral via diagonals and the angle between them. | [3018](https://zadachi.mccme.ru/2012/jndex.html#&task3018) | 
  | 33.a | K1033 | Facts related to areas | The area of a rhombus is half the product of its diagonals. | []() | 
  | 34 | K34 | Facts related to circles | A diameter perpendicular to a chord bisects it. | [1676](https://zadachi.mccme.ru/2012/jndex.html#&task1676) | 
@@ -102,7 +109,7 @@
  | 62 | K62 | Facts related to circles | The point of tangency of two tangent circles lies on their line of centers. | [1758](https://zadachi.mccme.ru/2012/jndex.html#&task1758) | 
  | 63 | K63 | Facts related to circles | Theorem on the intersection point of common tangents to two circles. | [1757](https://zadachi.mccme.ru/2012/jndex.html#&task1757) | 
  | 64 | K64 | Facts related to similarity and ratios of segments | Division of a quantity in a given ratio. | []() | 
- | 66 | K66 | Facts related to quadrilaterals | Criterion and property of a cyclic quadrilateral. | [364](https://zadachi.mccme.ru/2012/jndex.html#&task364); [ 310]( https://zadachi.mccme.ru/2012/jndex.html#&task310) | 
+ | 66 | K66 | Facts related to quadrilaterals | Criterion and property of a circumscribed quadrilateral. | [364](https://zadachi.mccme.ru/2012/jndex.html#&task364); [ 310]( https://zadachi.mccme.ru/2012/jndex.html#&task310) | 
  | 67 | K67 | Facts related to tangents to a circle | Formula for the inradius of a right triangle. | [217](https://zadachi.mccme.ru/2012/jndex.html#&task217) | 
  | 68 | K68 | Facts related to tangents to a circle | If M is the point where the inscribed circle touches side AB of triangle ABC, then AM = p − a, where p is the semiperimeter and a = BC | [219](https://zadachi.mccme.ru/2012/jndex.html#&task219) | 
  | 68.a | K1068 | Facts related to tangents to a circle | If M is the point where an excircle touches the extension of side AB beyond point B of triangle ABC, then AM = p, where p is the semiperimeter | [1750](https://zadachi.mccme.ru/2012/jndex.html#&task1750) | 
@@ -151,9 +158,12 @@
  | 103 | K103 | Facts related to vectors | Uniqueness of vector decomposition by two non-collinear vectors. | []() | 
  | 104 | K104 | Facts related to right triangles | The locus of points M such that AM<sup>2</sup> − BM<sup>2</sup> = const is a line perpendicular to AB | [2445](https://zadachi.mccme.ru/2012/jndex.html#&task2445) | 
  | 104.a | K1104 | Facts related to right triangles | Theorem on the radical axis of two circles (their common points). | [6391](https://zadachi.mccme.ru/2012/jndex.html#&task6391) | 
+ | 104.b | K2104 | Facts related to right triangles | The radical axis of two intersecting circles passes through their common points. | [6392](https://zadachi.mccme.ru/2012/jndex.html#&task6392) | 
  | 104.c | K3104 | Facts related to right triangles | Theorem on the radical center of three circles. | [6393](https://zadachi.mccme.ru/2012/jndex.html#&task6393) | 
  | 105 | K105 | Facts related to compositions of transformations | Theorem about composition of two homotheties. | []() | 
  | 106 | K106 | Facts related to circles | Archimedes' lemma on a circle inscribed in a segment. | [89](https://zadachi.mccme.ru/2012/jndex.html#&task89) | 
+ | 107 | K107 | Other facts | Properties of the center of mass of a system of material points. | [6796](https://zadachi.mccme.ru/2012/jndex.html#&task6796); [6797](https://zadachi.mccme.ru/2012/jndex.html#&task6797) | 
+ | 108 | K108 | Other facts | The basic property of the symmedian of a triangle. | [10499](https://zadachi.mccme.ru/2012/jndex.html#&task10499) | 
  | 109 | K109 | Facts related to similarity and ratios of segments | Steiner's theorem about isogonals and its corollary. | [4121](https://zadachi.mccme.ru/2012/jndex.html#&task4121); [ 11048](https://zadachi.mccme.ru/2012/jndex.html#&task11048) | 
  | 110 | K110 | Facts related to plane transformations | The perpendicular bisector of a segment is its axis of symmetry. | []() | 
  | 111 | K111 | Facts related to plane transformations | The angle of incidence equals the angle of reflection. | []() | 
@@ -208,6 +218,7 @@
  | 157 | K157 | Coordinate geometry formulas in the plane | Criterion for parallelism of lines given by y = m1x + b1 and y = m2x + b2. | [4207](https://zadachi.mccme.ru/2012/jndex.html#&task4207) | 
  | 158 | K158 | Coordinate geometry formulas in the plane | Criterion for perpendicularity of lines given by y = m1x + b1 and y = m2x + b2. | [4243](https://zadachi.mccme.ru/2012/jndex.html#&task4243) | 
  | 159 | K159 | Facts related to trigonometry | Tangent of the angle between lines given by y = m1x + b1 and y = m2x + b2. | []() | 
+ | 160 | K160 | Coordinate geometry formulas in the plane | Formula for the distance from the point (x<sub>0</sub>; y<sub>0</sub>) to the line ax + by + c = 0. | [4249](https://zadachi.mccme.ru/2012/jndex.html#&task4249) | 
  | 162 | K162 | Facts related to quadrilaterals | Necessary and sufficient condition for diagonals of a quadrilateral to be perpendicular. | [1344](https://zadachi.mccme.ru/2012/jndex.html#&task1344) | 
  | 162.a | K1162 | Facts related to quadrilaterals | Brahmagupta’s theorem. | [369](https://zadachi.mccme.ru/2012/jndex.html#&task369) | 
  | 163 | K163 | Coordinate geometry formulas in space | Coordinates of the midpoint of a segment. | [4200](https://zadachi.mccme.ru/2012/jndex.html#&task4200) | 
