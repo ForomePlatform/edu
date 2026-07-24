@@ -1,0 +1,60 @@
+{
+  "title": "Euclidean Geometry Ontology Catalogs (Facts, Objects, and Methods)",
+  "upload_type": "dataset",
+  "description": "<p>Annotation vocabularies of an ontology for Euclidean geometry problems and their solutions: <strong>219 geometric facts</strong>, <strong>143 geometric objects</strong>, and <strong>97 solution methods</strong>, in English and Russian, with English&ndash;Russian translation tables and a worked solution-graph example (Figure 1 of the accompanying article).</p><p>The ontology was developed in 1991&ndash;1996 by R.K. Gordin, M. Bouzinier, S. Trifonov, and I.F. Sharygin, and has been used since to annotate thousands of geometry problems &mdash; most of them publicly accessible at <a href=\"https://zadachi.mccme.ru\">zadachi.mccme.ru</a> &mdash; in support of curriculum design and granular skill tracking. It is documented in the article <em>An Ontology-Based Approach to Optimizing Geometry Problem Sets for Skill Development</em> (<a href=\"https://doi.org/10.48550/arXiv.2509.02758\">arXiv:2509.02758</a>, submitted to the International Journal of Mathematical Education in Science and Technology), for which this record is the supporting dataset.</p><p>Catalog content is licensed under CC BY 4.0; any source code in the repository is licensed under MIT.</p>",
+  "creators": [
+    {
+      "name": "Bouzinier, Michael",
+      "orcid": "0000-0002-3161-5601",
+      "affiliation": "Forome Association"
+    },
+    {
+      "name": "Trifonov, Sergey",
+      "affiliation": "Forome Association"
+    },
+    {
+      "name": "Chen, Matthew",
+      "orcid": "0009-0007-2272-6215",
+      "affiliation": "Lexington High School"
+    },
+    {
+      "name": "Venkatesh, Tarun",
+      "orcid": "0009-0002-6148-2982",
+      "affiliation": "Park Hill South High School"
+    },
+    {
+      "name": "Rifkin, Lielle",
+      "orcid": "0009-0006-0169-2944",
+      "affiliation": "Brookline High School"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gordin, Rafail K.",
+      "type": "Researcher"
+    },
+    {
+      "name": "Sharygin, Igor F.",
+      "type": "Researcher"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "Euclidean geometry",
+    "ontology",
+    "mathematics education",
+    "geometry problems",
+    "solution graphs",
+    "curriculum design",
+    "skill development"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.48550/arXiv.2509.02758",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    }
+  ],
+  "version": "1.0.0",
+  "language": "eng"
+}

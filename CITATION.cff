@@ -1,0 +1,77 @@
+# This CITATION.cff file describes the dataset in this repository (the
+# Euclidean geometry ontology catalogs). To cite the accompanying article,
+# use `preferred-citation` below.
+# NOTE: add the Zenodo DOI under `identifiers` after the first archived release.
+cff-version: 1.2.0
+message: >-
+  If you use these catalogs, please cite both the dataset and the
+  accompanying article (see preferred-citation).
+type: dataset
+title: "Euclidean Geometry Ontology Catalogs (Facts, Objects, and Methods)"
+abstract: >-
+  Annotation vocabularies of an ontology for Euclidean geometry problems and
+  their solutions: 219 geometric facts, 143 geometric objects, and 97 solution
+  methods, in English and Russian, with English-Russian translation tables and
+  a worked solution-graph example. Developed in 1991-1996 by R.K. Gordin,
+  M. Bouzinier, S. Trifonov, and I.F. Sharygin, and used since to annotate
+  thousands of geometry problems in support of curriculum design and skill
+  tracking.
+authors:
+  - family-names: Bouzinier
+    given-names: Michael
+    orcid: "https://orcid.org/0000-0002-3161-5601"
+    affiliation: "Forome Association"
+  - family-names: Trifonov
+    given-names: Sergey
+    affiliation: "Forome Association"
+  - family-names: Chen
+    given-names: Matthew
+    orcid: "https://orcid.org/0009-0007-2272-6215"
+    affiliation: "Lexington High School"
+  - family-names: Venkatesh
+    given-names: Tarun
+    orcid: "https://orcid.org/0009-0002-6148-2982"
+    affiliation: "Park Hill South High School"
+  - family-names: Rifkin
+    given-names: Lielle
+    orcid: "https://orcid.org/0009-0006-0169-2944"
+    affiliation: "Brookline High School"
+repository-code: "https://github.com/ForomePlatform/edu"
+license: CC-BY-4.0
+version: 1.0.0
+date-released: "2026-07-24"
+keywords:
+  - Euclidean geometry
+  - ontology
+  - mathematics education
+  - geometry problems
+  - solution graphs
+  - curriculum design
+  - skill development
+preferred-citation:
+  type: article
+  title: >-
+    An Ontology-Based Approach to Optimizing Geometry Problem Sets for
+    Skill Development
+  authors:
+    - family-names: Bouzinier
+      given-names: Michael
+      orcid: "https://orcid.org/0000-0002-3161-5601"
+    - family-names: Trifonov
+      given-names: Sergey
+    - family-names: Chen
+      given-names: Matthew
+      orcid: "https://orcid.org/0009-0007-2272-6215"
+    - family-names: Venkatesh
+      given-names: Tarun
+      orcid: "https://orcid.org/0009-0002-6148-2982"
+    - family-names: Rifkin
+      given-names: Lielle
+      orcid: "https://orcid.org/0009-0006-0169-2944"
+  year: 2025
+  doi: "10.48550/arXiv.2509.02758"
+  url: "https://arxiv.org/abs/2509.02758"
+  notes: >-
+    Preprint; submitted to the International Journal of Mathematical
+    Education in Science and Technology. Update this citation to the
+    journal version of record upon publication.
