@@ -1,0 +1,13 @@
+digraph No00001 {
+rankdir=TB;
+Start [label="Problem 1\n(zadachi.mccme.ru/2012/\n#&task1)", shape=box, style=filled, fillcolor="#fde0ef", penwidth=1, color="#555555"];
+P1 [shape=diamond, label="Inscribed angle", style=filled, fillcolor="#43BF71", penwidth=3, fontname="Helvetica-bold", color="#f94144"];
+P2 [shape=rectangle, label="Case analysis", style=filled, fillcolor="#90D743", penwidth=1, color="#555555"];
+P3 [shape=diamond, label="Central angle", style=filled, fillcolor="#43BF71", penwidth=1, color="#555555"];
+P4 [shape=diamond, label="Exterior angle of a\ntriangle", style=filled, fillcolor="#43BF71", penwidth=1, color="#555555"];
+P5 [shape=ellipse, label="Exterior angle theorem of\na triangle.", style=filled, fillcolor="#F9D057", penwidth=1, color="#555555"];
+P6 [shape=ellipse, label="If ray AC lies between the\nsides of angle BAD, then\n∠BAD = ∠BAC + ∠CAD.", style=filled, fillcolor="#F9D057", penwidth=1, color="#555555"];
+P7 [shape=ellipse, label="Measurement of inscribed\nangle.", style=filled, fillcolor="#F9D057", penwidth=3, fontname="Helvetica-bold", color="#f94144"];
+Done [label=Solution, shape=box, style=filled, fillcolor="#cfe2f3", penwidth=1, color="#555555"];
+Start -> P1 -> P2 -> P3 -> P4 -> P5 -> P6 -> P7 -> Done;
+}

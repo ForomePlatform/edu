@@ -52,6 +52,14 @@ The English and Russian catalogs are row-aligned: entry *N* of an English
 table is the translation of entry *N* of the corresponding Russian table, and
 shared codes (`K…`, `O…`, `M…`) identify the same entry across languages.
 
+**Scope.** These catalogs cover *plane* geometry (planimetry), as their
+titles state. The annotated corpus behind the project additionally contains
+~2,700 solid-geometry (stereometry) problems that use a parallel vocabulary
+(codes offset by +10000); those catalogs are not yet published here. Fact
+codes follow a structured scheme — sub-facts of entry *N* are numbered
+`1000·v + N` (catalog Id *N.a*, *N.b*, …) — documented in
+[`docs/annotation-methodology.md`](docs/annotation-methodology.md).
+
 Column conventions:
 
 - **Id / Code** — stable identifiers of an entry (facts additionally carry a
@@ -63,13 +71,19 @@ Column conventions:
   [zadachi.mccme.ru](https://zadachi.mccme.ru) database that exercise the
   entry, when such a problem exists.
 
-## Example: a solution graph
+## Examples and documentation
 
-`examples/solution-graph.gv` is the Graphviz source of Figure 1 of the
-article: the solution graph of a trapezoid-area problem
-([problem 2034](https://zadachi.mccme.ru/2012/jndex.html#&task2034)), with
-nodes drawn from these catalogs. See `examples/README.md` for the legend and
-rendering instructions.
+[`examples/`](examples/) contains three worked solution graphs with rendered
+images: [problem 1](https://zadachi.mccme.ru/2012/#&task1) (a single-chain
+graph — the inscribed-angle theorem), [problem 5](https://zadachi.mccme.ru/2012/#&task5)
+(alternative solution paths), and [problem 2034](https://zadachi.mccme.ru/2012/#&task2034)
+(Figure 1 of the article). Problem statements are referenced by their
+canonical URLs, not reproduced.
+
+[`docs/annotation-methodology.md`](docs/annotation-methodology.md) is the
+annotation manual: the code scheme, solution-graph construction rules,
+attribute semantics, the archival annotation format, and a checklist for
+annotating new problems.
 
 ## Provenance and credits
 

@@ -1,0 +1,16 @@
+digraph No00005 {
+rankdir=TB;
+Start [label="Problem 5\n(zadachi.mccme.ru/2012/\n#&task5)", shape=box, style=filled, fillcolor="#fde0ef", penwidth=1, color="#555555"];
+P1 [shape=diamond, label="Concentric circles", style=filled, fillcolor="#43BF71", penwidth=3, fontname="Helvetica-bold", color="#f94144"];
+P2 [shape=diamond, label="Tangent to a circle", style=filled, fillcolor="#43BF71", penwidth=3, fontname="Helvetica-bold", color="#f94144"];
+P3 [shape=ellipse, label="The tangent is\nperpendicular to the\nradius to the point of\ncontact.", style=filled, fillcolor="#F9D057", penwidth=1, color="#555555"];
+P4 [shape=diamond, label="Right triangle", style=filled, fillcolor="#43BF71", penwidth=1, color="#555555"];
+P5 [shape=rectangle, label="Solving geometric problems\nusing equations", style=filled, fillcolor="#90D743", penwidth=1, color="#555555"];
+P6 [shape=ellipse, label="A diameter perpendicular\nto a chord bisects it.", style=filled, fillcolor="#F9D057", penwidth=1, color="#555555"];
+P7 [shape=ellipse, label="Pythagoras' theorem.", style=filled, fillcolor="#F9D057", penwidth=3, fontname="Helvetica-bold", color="#f94144"];
+P8 [shape=ellipse, label="The products of segments\nof intersecting chords of\na circle are equal.", style=filled, fillcolor="#F9D057", penwidth=3, fontname="Helvetica-bold", color="#f94144"];
+Done [label=Solution, shape=box, style=filled, fillcolor="#cfe2f3", penwidth=1, color="#555555"];
+Start -> P1 -> P2 -> P3 -> P4 -> P5 -> P6 -> P7 -> Done;
+P5 -> P8;
+P8 -> Done;
+}
